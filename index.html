@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나의 웹 애플리케이션</title>
+</head>
+<body>
+  <h1>걸그룹 데이터 입력</h1>
+  <form id="groupForm">
+    그룹명: <input type="text" id="groupName" required><br>
+    데뷔일: <input type="date" id="debutDate" required><br>
+    멤버수: <input type="number" id="memberCount" required><br>
+    소속사: <input type="text" id="agency" required><br>
+    <button type="submit">저장</button>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script>
+    // Firebase 설정 및 초기화 부분은 나중에 추가됩니다.
+  </script>
+</body>
+</html>
